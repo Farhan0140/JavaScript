@@ -37,6 +37,23 @@ console.log(b)
 
 let a = 100 //   Error dibe let e same name duibar declare kora jabe na ,, var e kora jabe
 let a = 200 //
+
+// let == Block Level Variable
+// Ex:1
+
+if(1 < 10) {
+    let x = 10
+}
+//console.log(x) // Error
+
+// But
+
+if(1 < 10) {
+    var x = 10
+}
+console.log(x) // 10
+
+// { "{}" er vitore let declare korle "{}" er baire eitar access kora jai na but var e kora jai }
 */
 
 
